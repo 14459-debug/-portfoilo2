@@ -1,0 +1,20 @@
+portfolio/
+│
+├── index.html              (หน้าหลัก)
+├── profile.html            (ประวัติส่วนตัว)
+├── education.html          (ประวัติการศึกษา)
+├── skills.html             (ความสามารถพิเศษ)
+├── contact.html            (ช่องทางการติดต่อ)
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── images/
+│   ├── profile.jpg
+│   ├── school.jpg
+│   ├── activity1.jpg
+│   ├── activity2.jpg
+│   └── background.jpg
