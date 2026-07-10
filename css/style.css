@@ -1,20 +1,24 @@
-portfolio/
-│
-├── index.html              (หน้าหลัก)
-├── profile.html            (ประวัติส่วนตัว)
-├── education.html          (ประวัติการศึกษา)
-├── skills.html             (ความสามารถพิเศษ)
-├── contact.html            (ช่องทางการติดต่อ)
-│
-├── css/
-│   └── style.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   ├── profile.jpg
-│   ├── school.jpg
-│   ├── activity1.jpg
-│   ├── activity2.jpg
-│   └── background.jpg
+.grass{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    height:140px;
+    background:url("images/grass.png") repeat-x;
+    animation: moveGrass 3s ease-in-out infinite;
+}
+
+@keyframes moveGrass{
+
+0%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-8px);
+}
+
+100%{
+transform:translateY(0px);
+}
+
+}
